@@ -1,0 +1,27 @@
+// Метрика с кнопкой "Добавить"
+
+.metrics-add {
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    align-items: center;
+    width: 128px;
+    min-height: 48px;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+
+    & .text {
+        font-size: 12px;
+    }
+
+    &:hover .metrics__fill {
+        fill: blue;
+    }
+
+    &:hover .metrics__stroke {
+        stroke: blue
+    }
+}

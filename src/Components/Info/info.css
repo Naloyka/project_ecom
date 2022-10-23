@@ -1,0 +1,11 @@
+.info {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-size: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  background-image: url("../../img/icon_settings_2.png"); }

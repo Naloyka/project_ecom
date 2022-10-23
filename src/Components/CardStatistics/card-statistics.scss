@@ -1,0 +1,75 @@
+// Карточка со статистикой
+
+.card-statistics {
+    width: 240px;
+    height: 136px;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+    background-color: #F6F1F1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 6px;
+    }
+
+    & .title {
+        font-family: 'Circe Rounded';
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    & .color-block_green,
+    .color-block_red,
+    .color-block_white {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .color-block_green {
+        background-color: #B2F162;
+    }
+
+    .color-block_red {
+        background-color: #FF5959;
+    }
+
+    .color-block_white {
+        background-color: #ffffff;
+        border: 1px solid #C6C6C6;
+        min-width: 64px;
+        max-width: 88px;
+        width: 100%;
+    }
+
+
+    & .text {
+        display: block;
+        white-space: nowrap;
+    }
+
+    & .icon-arrow_green,
+    .icon-arrow_red {
+        display: block;
+        width: 12px;
+        height: 16px;
+    }
+
+    .icon-arrow_green {
+        background-image: url('../../img/icon_arrow-green.png');
+    }
+
+    .icon-arrow_red {
+        background-image: url('../../img/icon_arrow-red.png');
+    }
+}

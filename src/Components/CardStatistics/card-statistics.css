@@ -1,0 +1,51 @@
+.card-statistics {
+  width: 240px;
+  height: 136px;
+  border: 1px solid #C6C6C6;
+  border-radius: 10px;
+  background-color: #F6F1F1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .card-statistics_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 6px; }
+  .card-statistics .title {
+    font-family: 'Circe Rounded';
+    font-weight: 400;
+    font-size: 16px; }
+  .card-statistics .color-block_green,
+  .card-statistics .color-block_red,
+  .card-statistics .color-block_white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px; }
+  .card-statistics .color-block_green {
+    background-color: #B2F162; }
+  .card-statistics .color-block_red {
+    background-color: #FF5959; }
+  .card-statistics .color-block_white {
+    background-color: #ffffff;
+    border: 1px solid #C6C6C6;
+    min-width: 64px;
+    max-width: 88px;
+    width: 100%; }
+  .card-statistics .text {
+    display: block;
+    white-space: nowrap; }
+  .card-statistics .icon-arrow_green,
+  .card-statistics .icon-arrow_red {
+    display: block;
+    width: 12px;
+    height: 16px; }
+  .card-statistics .icon-arrow_green {
+    background-image: url("../../img/icon_arrow-green.png"); }
+  .card-statistics .icon-arrow_red {
+    background-image: url("../../img/icon_arrow-red.png"); }

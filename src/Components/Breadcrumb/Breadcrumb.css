@@ -1,0 +1,36 @@
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  color: #B0AFAF; }
+  .breadcrumb__nav {
+    display: block;
+    max-width: 1440px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #B0AFAF;
+    font-family: 'Circe Rounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; }
+  .breadcrumb__link::after, .breadcrumb__link::before {
+    content: "";
+    display: inline-block;
+    background-image: url("../../img/icon_breadcrumb.png");
+    width: 7px;
+    height: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #B0AFAF;
+    font-family: 'Circe rounded'; }
+  .breadcrumb__link::before {
+    content: "";
+    display: none;
+    transform: rotate(180deg); }

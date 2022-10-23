@@ -1,0 +1,6 @@
+.flex-16 {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center; }

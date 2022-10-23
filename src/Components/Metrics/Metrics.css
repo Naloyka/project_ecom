@@ -1,0 +1,32 @@
+.metrics {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  min-height: 48px;
+  border: 1px solid #C6C6C6;
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+  cursor: pointer; }
+  .metrics__strip {
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+    height: 8px;
+    background-color: #C6C6C6;
+    width: 100%; }
+    .metrics__strip_blue {
+      background-color: #6B04EE; }
+    .metrics__strip_red {
+      background-color: #EE0404; }
+  .metrics .text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 16px 8px 8px; }
+  .metrics .group-btn {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    display: flex;
+    gap: 8px; }

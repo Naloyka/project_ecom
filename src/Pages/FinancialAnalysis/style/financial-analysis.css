@@ -1,0 +1,92 @@
+.select-group-container {
+  display: flex;
+  gap: 16px; }
+  .select-group-container .text {
+    min-width: 100px; }
+
+.col-left,
+.col-right {
+  padding: 16px 24px;
+  display: flex;
+  max-width: 286px;
+  height: auto;
+  gap: 16px;
+  flex-direction: column;
+  overflow: hidden;
+  flex-shrink: 0; }
+
+.col-right {
+  max-width: 100%;
+  padding: 16px;
+  flex-shrink: 1; }
+
+.financial-analysis_content {
+  display: flex;
+  justify-content: space-between; }
+  .financial-analysis_content .select-group {
+    display: flex;
+    gap: 16px; }
+  .financial-analysis_content .table-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 250px; }
+
+.container-chart {
+  display: block;
+  max-width: 100%;
+  height: 270px;
+  overflow: hidden; }
+
+.chart {
+  display: block;
+  width: 100%;
+  max-height: 250px;
+  min-height: 250px; }
+
+#example_absolute-values tbody > tr:not(.thDH):nth-child(even) > td, #example_changes tbody > tr:not(.thDH):nth-child(even) > td, #example_deviations tbody > tr:not(.thDH):nth-child(even) > td {
+  background-color: #F6F1F1; }
+#example_absolute-values tbody > tr > td, #example_changes tbody > tr > td, #example_deviations tbody > tr > td {
+  border: none;
+  text-align: center; }
+#example_absolute-values th, #example_changes th, #example_deviations th {
+  height: 40px;
+  background-color: #C6C6C6;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#example_absolute-values tbody > tr:not(.thDH):nth-child(even) > td, #example_changes tbody > tr:not(.thDH):nth-child(even) > td, #example_deviations tbody > tr:not(.thDH):nth-child(even) > td {
+  background-color: #F6F1F1; }
+#example_absolute-values tbody > tr > td, #example_changes tbody > tr > td, #example_deviations tbody > tr > td {
+  border: none;
+  text-align: center; }
+#example_absolute-values th, #example_changes th, #example_deviations th {
+  height: 40px;
+  background-color: #C6C6C6;
+  text-align: center;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.wtHolder::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; }
+.wtHolder::-webkit-scrollbar-track-piece {
+  background-color: #F6F1F1; }
+.wtHolder::-webkit-scrollbar-thumb:vertical {
+  width: 5px;
+  height: 5px;
+  background-color: #C6C6C6;
+  scrollbar-width: none; }
+.wtHolder::-webkit-scrollbar-thumb:horizontal {
+  height: 5px;
+  background-color: #C6C6C6;
+  border-radius: 10px; }
+
+@media (max-width: 1024px) {
+  .select-group-container {
+    flex-direction: column; } }

@@ -1,0 +1,26 @@
+// select
+
+.select {
+    min-width: 100px;
+    width: 100%;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #B0AFAF;
+    border-radius: 10px;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: url("../../img/icon_arrow_down_select.svg");
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: right 6px center;
+    appearance: none;
+    color: #C6C6C6;
+
+    &:focus {
+        outline: 1px solid blue;
+    }
+}

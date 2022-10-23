@@ -1,0 +1,16 @@
+// Кнопка добавить (раздел с метриками)
+
+.add-btn {
+    background-color: inherit;
+    border: none;
+    width: 40px;
+    height: 40px;
+
+    &:hover .metrics__fill {
+        fill: blue;
+    }
+
+    &:hover .metrics__stroke {
+        stroke: blue
+    }
+}

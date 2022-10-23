@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Circe Rounded;
+    src: url("../font/CirceRounded-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../font/Montserrat-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Circe Rounded';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block
+}
+
+// Scroll для таблиц
+
+.wtHolder {
+    &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;     
+    }
+
+    &::-webkit-scrollbar-track-piece {
+        background-color: #F6F1F1;
+    }
+
+    &::-webkit-scrollbar-thumb:vertical {
+        width: 5px;
+        height: 5px;
+        background-color: #C6C6C6;
+        scrollbar-width: none;
+    }
+
+    &::-webkit-scrollbar-thumb:horizontal {
+        height: 5px;
+        background-color: #C6C6C6;
+        border-radius: 10px;
+    }
+}
